@@ -1,0 +1,84 @@
+/* html, body {height:100%} */
+    
+	body {
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+	 ul {
+    margin-left: 0;
+    padding-left: 0;
+	}
+	.col-lg-2 {
+    width: 16.66666667%;
+    background-color: #f8f8f8;
+
+    height: 100%;
+	}
+.bs-example	 {margin-top:5px}
+#pre{
+    background-color: white;
+    border: 0px;
+    text-align:center;
+    font-size: 14px;
+}
+.prea{
+    background-color: white;
+    border: 0px;
+    font-size: 14px;
+    text-align: -webkit-match-parent;
+}
+
+.timeline {max-width: 100% !important;} 
+
+
+
+		
+
+		#loading{
+		position: absolute;
+		left: 50%;
+		top: 20%;
+		}
+		#update{
+		text-align: center;
+		display:none
+		}
+		.iframe{
+			margin-top: 5px;
+		}
+@media screen and (max-width: 390px) {
+
+		.nav > li > a {padding: 10px 8px;}
+
+}
+ @media screen and (max-width: 320px) {
+    
+		.nav-tabs li a { font-size:12px; }
+		.nav > li > a {padding: 10px 6px;}	
+			
+		 
+		.timeline {
+		max-width: 100%;
+		margin-bottom: 30px;
+		background-color: #fff;
+		border-radius: 5px;
+		margin-top: 5px;
+		}
+
+		.nav-tabs {
+		border-bottom: 5px solid white;
+		border-top: 10px;
+		margin-top: 10px;
+		}
+		.nav {
+		padding-left: 0;
+		margin-bottom: 10px;
+		list-style: none;
+		}
+		.rufous-sandbox{
+		max-width: 100%;
+		max-height: auto;
+		}
+ 
+}
+

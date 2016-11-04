@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fBO-HX-joA">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0bS-Az-A8E">
+            <objects>
+                <viewController storyboardIdentifier="InitView" id="fBO-HX-joA" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xE7-Rw-DwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="8jX-9L-mIU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qhg-xV-ECc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuimg" translatesAutoresizingMaskIntoConstraints="NO" id="gdP-qf-WH3">
+                                <rect key="frame" x="178" y="23" width="245" height="186"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="hG0-Sh-js7"/>
+                                    <constraint firstAttribute="width" constant="245" id="iB0-sP-iWj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggn-DL-vwK">
+                                <rect key="frame" x="202" y="208" width="197" height="49"/>
+                                <color key="backgroundColor" red="0.30133068561553955" green="0.10022909194231033" blue="0.10571018606424332" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="KfE-y2-xMb"/>
+                                    <constraint firstAttribute="height" constant="49" id="r3k-km-jWB"/>
+                                </constraints>
+                                <state key="normal" title="Minyanim">
+                                    <color key="titleColor" red="0.8809468150138855" green="0.79049140214920044" blue="0.61800020933151245" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="firstBtn:" destination="fBO-HX-joA" eventType="touchUpInside" id="RL0-wL-C8f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtS-7Z-ygM">
+                                <rect key="frame" x="202" y="279" width="197" height="49"/>
+                                <color key="backgroundColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="4wI-q8-IK4"/>
+                                    <constraint firstAttribute="height" constant="49" id="pPk-80-Oxh"/>
+                                </constraints>
+                                <state key="normal" title="Shiurim">
+                                    <color key="titleColor" red="0.88094681500000005" green="0.79049140210000002" blue="0.61800020929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="secondBtn:" destination="fBO-HX-joA" eventType="touchUpInside" id="72l-ad-qZU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdD-zo-XKL">
+                                <rect key="frame" x="202" y="350" width="197" height="49"/>
+                                <color key="backgroundColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="8kx-xe-ykQ"/>
+                                    <constraint firstAttribute="width" constant="197" id="vjH-GM-6p9"/>
+                                </constraints>
+                                <state key="normal" title="Updates">
+                                    <color key="titleColor" red="0.88094681500000005" green="0.79049140210000002" blue="0.61800020929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="thirdBtn:" destination="fBO-HX-joA" eventType="touchUpInside" id="82F-UY-4zr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXj-l0-dfq">
+                                <rect key="frame" x="202" y="421" width="197" height="49"/>
+                                <color key="backgroundColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="jQH-8Y-pbN"/>
+                                    <constraint firstAttribute="width" constant="197" id="qPO-L4-mug"/>
+                                </constraints>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleColor" red="0.88094681500000005" green="0.79049140210000002" blue="0.61800020929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="fourBtn:" destination="fBO-HX-joA" eventType="touchUpInside" id="D5F-aH-5II"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGH-ac-peS">
+                                <rect key="frame" x="202" y="492" width="197" height="49"/>
+                                <color key="backgroundColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="jeE-Ya-SV9"/>
+                                    <constraint firstAttribute="height" constant="49" id="rCZ-DA-DUt"/>
+                                </constraints>
+                                <state key="normal" title="Ads">
+                                    <color key="titleColor" red="0.88094681500000005" green="0.79049140210000002" blue="0.61800020929999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="fiveBtn:" destination="fBO-HX-joA" eventType="touchUpInside" id="asz-Gr-zUM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HdD-zo-XKL" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="4Hf-63-iEa"/>
+                            <constraint firstItem="Ggn-DL-vwK" firstAttribute="top" secondItem="gdP-qf-WH3" secondAttribute="bottom" constant="-1" id="7K8-dC-TZl"/>
+                            <constraint firstItem="KtS-7Z-ygM" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="CFE-oR-adb"/>
+                            <constraint firstItem="gdP-qf-WH3" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="Huv-Ih-8jJ"/>
+                            <constraint firstItem="Ggn-DL-vwK" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="QpS-JY-Zuj"/>
+                            <constraint firstItem="kXj-l0-dfq" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="a5M-Gr-HMy"/>
+                            <constraint firstItem="kXj-l0-dfq" firstAttribute="top" secondItem="HdD-zo-XKL" secondAttribute="bottom" constant="22" id="aYx-5v-zss"/>
+                            <constraint firstItem="nGH-ac-peS" firstAttribute="top" secondItem="kXj-l0-dfq" secondAttribute="bottom" constant="22" id="jSR-Cd-tGS"/>
+                            <constraint firstItem="gdP-qf-WH3" firstAttribute="top" secondItem="xE7-Rw-DwQ" secondAttribute="bottom" constant="3" id="kYp-qB-vs7"/>
+                            <constraint firstItem="nGH-ac-peS" firstAttribute="centerX" secondItem="Qhg-xV-ECc" secondAttribute="centerX" id="urG-nn-gNf"/>
+                            <constraint firstItem="HdD-zo-XKL" firstAttribute="top" secondItem="KtS-7Z-ygM" secondAttribute="bottom" constant="22" id="wmS-sj-FNi"/>
+                            <constraint firstItem="KtS-7Z-ygM" firstAttribute="top" secondItem="Ggn-DL-vwK" secondAttribute="bottom" constant="22" id="xwq-UU-O1Q"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mje-1A-bES" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365.60000000000002" y="-341.37931034482762"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menuimg" width="400" height="345"/>
+    </resources>
+</document>

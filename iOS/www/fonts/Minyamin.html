@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tabs</title>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+	
+window.onload=function() {
+	document.getElementById("ifr").style.height=window.innerHeight-95 +"px"; 
+}
+ $(window).on('load', function() {
+
+	var windowHeight = $(window).height();
+	
+	
+	var headerHeight = $('#header').height();
+	
+	
+	$('.iframe2').css('height',windowHeight - headerHeight -65 + "px");
+	$('.iframe3').css('height',windowHeight - headerHeight -55 + "px" );
+	$('.sectionDiframe').css('height',windowHeight - headerHeight -100 + "px" );
+	$('.iframe').css('height',windowHeight - headerHeight -13  );
+	
+});
+	
+	
+	//console.log($('#sectionB').height());
+</script>
+ 
+  
+  </head>
+
+<body> 
+   
+  
+	<div class="bs-example" id="container">
+		
+		<div class="tab-content">
+			<div id="sectionA" class="tab-pane fade in active">
+				<br/>  
+
+
+   <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vckmishkantorah%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" frameborder="0" style="overflow: hidden; height: 100%; width: 100%; position: absolute;" height="100%" width="100%"></iframe>
+
+    </div>
+		
+			
+			
+		</div>  
+	</div>
+
+ 
+    
+	<script type="text/javascript" src="js/script.js"></script>
+
+		
+  </body>
+</html>

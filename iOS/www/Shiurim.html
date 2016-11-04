@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, overflow:hidden">
+       
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tabs</title>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+	
+window.onload=function() {
+	document.getElementById("ifr").style.height=window.innerHeight-95 +"px"; 
+}
+ $(window).on('load', function() {
+
+	var windowHeight = $(window).height();
+	
+	
+	var headerHeight = $('#header').height();
+	
+	
+	$('.iframe2').css('height',windowHeight - headerHeight -65 + "px");
+	$('.iframe3').css('height',windowHeight - headerHeight -55 + "px" );
+	$('.sectionDiframe').css('height',windowHeight - headerHeight -100 + "px" );
+	$('.iframe').css('height',windowHeight - headerHeight -13  );
+	
+});
+	
+	
+	//console.log($('#sectionB').height());
+</script>
+ 
+  
+  </head>
+
+<body> 
+
+  
+
+		<div class="tab-content">
+
+			<div id="sectionB" class="tab-pane fade ">
+				<div  style="display:block;margin:0;padding:1px;border:0;" >
+					<iframe class="iframe2" style="position: static; visibility: visible; display: inline-block; width: 100%;  border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" ></iframe>
+					
+										<script>
+					$(function() {
+						$.get("https://docs.google.com/document/d/1gz-3ItIZBeoH0CbENBw_Bot6Ff7ZztQy2TYH5CaQiAQ/pub?embedded=true", function(html) {
+							$(".iframe2").attr("srcdoc", html);
+							setTimeout(function() {
+								$(".iframe2").contents().find('a[href^="http://"]').attr("target", "_blank");
+								$(".iframe2").contents().find('a[href^="https://"]').attr("target", "_blank");
+							}, 1000);
+						});
+					});
+					</script>
+					
+					
+				</div> 
+			</div>	
+
+
+ 
+    
+	<script type="text/javascript" src="js/script.js"></script>
+
+		
+  </body>
+</html>
