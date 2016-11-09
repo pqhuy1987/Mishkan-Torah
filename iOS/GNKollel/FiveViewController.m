@@ -84,7 +84,7 @@ static CGFloat kDefaultPaddingHeight = 15.0f;
     titleView.textColor = [UIColor colorWithRed:0.88 green:0.79 blue:0.61 alpha:1.0];
     titleView.shadowColor = [UIColor darkGrayColor];
     titleView.shadowOffset = CGSizeMake(0, -1);
-    titleView.text = @"Ads";
+    titleView.text = @"Mishkan Torah";
     titleView.adjustsFontSizeToFitWidth = YES;
     [_headerTitleSubtitleView addSubview:titleView];
     

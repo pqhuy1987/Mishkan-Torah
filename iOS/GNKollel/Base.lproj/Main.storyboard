@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lgh-rW-qea">
-                                <frame key="frameInset" minY="64" width="600" height="486"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="486"/>
                                 <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -54,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrJ-SB-4Qk">
-                                <frame key="frameInset" minY="64" width="600" height="486"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="486"/>
                                 <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -88,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pZu-gZ-oMb">
-                                <frame key="frameInset" minX="4" width="592" height="437"/>
+                                <rect key="frame" x="4" y="0.0" width="592" height="437"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <sections/>
                                 <connections>
@@ -128,7 +131,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xyc-K3-Icg">
-                                <frame key="frameInset" minY="64" width="600" height="470"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="470"/>
                                 <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -188,7 +191,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vv5-ar-wsx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Vv5-ar-wsx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -213,7 +216,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BRM-ID-GXv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BRM-ID-GXv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -237,7 +240,7 @@
                     <tabBarItem key="tabBarItem" title="Ads" image="ic_twitter.png" id="ZAT-48-GeL">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="00O-mj-HL7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="00O-mj-HL7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -261,7 +264,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S5p-q6-ucC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="S5p-q6-ucC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -286,7 +289,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="t87-bv-kml">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="t87-bv-kml">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30133068559999998" green="0.1002290919" blue="0.10571018610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -303,7 +306,7 @@
             </objects>
             <point key="canvasLocation" x="2475" y="340"/>
         </scene>
-        <!--Five View Controller-->
+        <!--Mishkan Torah-->
         <scene sceneID="hAj-s6-DAi">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="owm-Tw-KRT" customClass="FiveViewController" sceneMemberID="viewController">
@@ -316,7 +319,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AQz-Sm-i97">
-                                <frame key="frameInset" minX="4" width="592" height="487"/>
+                                <rect key="frame" x="4" y="0.0" width="592" height="487"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <sections/>
                                 <connections>
@@ -334,7 +337,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" id="TFd-Dz-qdX"/>
+                    <navigationItem key="navigationItem" title="Mishkan Torah" id="TFd-Dz-qdX"/>
                     <connections>
                         <outlet property="tableView" destination="AQz-Sm-i97" id="hBq-VI-Hy9"/>
                     </connections>
