@@ -58,7 +58,11 @@
 
     self.navigationController.navigationBar.backgroundColor= [UIColor whiteColor];
     self.navigationController.navigationBar.translucent= NO;
-    UIBarButtonItem *leftItem =  [[UIBarButtonItem alloc]initWithTitle:NSLocalizedString(@"❮",nil) style:UIBarButtonItemStylePlain target:self action:@selector(onBack)];
+    UIBarButtonItem *leftItem =  [[UIBarButtonItem alloc]initWithTitle:@"<" style:UIBarButtonItemStylePlain target:self action:@selector(onBack)];
+    [leftItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                        [UIFont fontWithName:@"Helvetica-Bold" size:30.0], NSFontAttributeName,
+                                        [UIColor colorWithRed:0.88 green:0.79 blue:0.61 alpha:1.0], NSForegroundColorAttributeName,
+                                        nil] forState:UIControlStateNormal];
     [[self navigationItem] setLeftBarButtonItem:leftItem];
     [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.88 green:0.79 blue:0.61 alpha:1.0]];
     
